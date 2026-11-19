@@ -1,0 +1,35 @@
+{
+  "model_type": "DecisionTreeClassifier",
+  "max_depth": 4,
+  "min_samples_leaf": 5,
+  "random_state": 42,
+  "feature_names": [
+    "process_count",
+    "mean_initial_burst",
+    "std_initial_burst",
+    "burst_cv",
+    "mean_io_wait",
+    "multi_burst_ratio",
+    "cpu_to_io_ratio",
+    "mean_arrival_gap",
+    "std_arrival_gap",
+    "short_burst_ratio",
+    "priority_std",
+    "arrival_burstiness"
+  ],
+  "classes": [
+    "FCFS",
+    "PRIORITY",
+    "RR_Q2",
+    "RR_Q5",
+    "SJF"
+  ],
+  "train_sample_count": 350,
+  "train_accuracy": 0.8657,
+  "val_accuracy": 0.8667,
+  "inference_latency_us": {
+    "median": 88.2,
+    "p95": 105.21
+  },
+  "timestamp": 1795096206.0226028
+}

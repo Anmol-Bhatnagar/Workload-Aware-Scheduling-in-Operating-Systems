@@ -1,0 +1,16 @@
+{
+  "run_id": "cpu_io_bound_s2132_n10_RR_Q10",
+  "timestamp": null,
+  "scenario_id": "io_bound_s2132_n10",
+  "workload_family": "io_bound",
+  "policy": "RR_Q10",
+  "seed": 2132,
+  "process_count": 10,
+  "config_hash": null,
+  "python_version": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "status": "COMPLETED",
+  "extra": {
+    "candidate_id": "RR_Q10"
+  }
+}

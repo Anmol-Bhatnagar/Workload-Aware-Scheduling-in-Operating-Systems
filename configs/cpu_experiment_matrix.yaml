@@ -1,0 +1,38 @@
+# CPU Scheduling Matrix Configuration
+
+matrix:
+  workload_families:
+    - cpu_bound
+    - io_bound
+    - interactive
+    - mixed
+    - bursty_arrivals
+  
+  scale:
+    pilot_scenarios_per_family: 5
+    full_scenarios_per_family: 100
+    base_seed: 2026
+  
+  process_count_distribution:
+    min: 8
+    max: 16
+
+candidates:
+  - id: "FCFS"
+    policy: "fcfs"
+    params: {}
+  - id: "SJF"
+    policy: "sjf"
+    params: {}
+  - id: "PRIORITY"
+    policy: "priority"
+    params: { lower_is_higher: true }
+  - id: "RR_Q2"
+    policy: "rr"
+    params: { quantum: 2 }
+  - id: "RR_Q5"
+    policy: "rr"
+    params: { quantum: 5 }
+  - id: "RR_Q10"
+    policy: "rr"
+    params: { quantum: 10 }

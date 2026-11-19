@@ -1,0 +1,16 @@
+{
+  "run_id": "cpu_interactive_s2262_n10_FCFS",
+  "timestamp": null,
+  "scenario_id": "interactive_s2262_n10",
+  "workload_family": "interactive",
+  "policy": "FCFS",
+  "seed": 2262,
+  "process_count": 10,
+  "config_hash": null,
+  "python_version": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "status": "COMPLETED",
+  "extra": {
+    "candidate_id": "FCFS"
+  }
+}

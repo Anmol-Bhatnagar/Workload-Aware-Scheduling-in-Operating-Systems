@@ -1,0 +1,11 @@
+pid,arrival_time,first_start_time,completion_time,total_cpu_time,ready_wait_time,blocked_time,response_time,turnaround_time,dispatch_count
+P1,0,0,82,10,9,63,0,82,5
+P2,3,3,54,6,15,30,0,51,4
+P3,4,4,106,18,21,63,0,102,10
+P4,6,6,56,9,16,25,0,50,4
+P5,9,9,78,7,13,49,0,69,4
+P6,12,12,107,13,18,64,0,95,7
+P7,15,16,83,8,21,39,1,68,5
+P8,16,17,74,8,14,36,1,58,4
+P9,18,24,90,7,19,46,6,72,5
+P10,19,25,75,7,16,33,6,56,4

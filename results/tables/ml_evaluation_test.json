@@ -1,0 +1,70 @@
+{
+  "test_sample_count": 75,
+  "best_fixed_policy": "SJF",
+  "policy_accuracy": 0.84,
+  "average_composite_costs": {
+    "ML_Recommender": 0.2088,
+    "Always_FCFS": 0.4792,
+    "Always_RR_Q5": 0.4348,
+    "Best_Fixed_SJF": 0.2086,
+    "Per_Scenario_Oracle": 0.2008
+  },
+  "average_regret_vs_oracle": {
+    "ML_Recommender": 0.0661,
+    "Always_FCFS": 2.405,
+    "Always_RR_Q5": 2.0216,
+    "Best_Fixed_SJF": 0.0651
+  },
+  "head_to_head_ratios": {
+    "ml_beats_rr5": 0.96,
+    "ml_beats_fcfs": 0.9467,
+    "best_fixed_beats_ml": 0.0267
+  },
+  "bootstrap_ci_rr5_minus_ml_cost": {
+    "mean_diff": 0.226,
+    "ci_2_5": 0.1943,
+    "ci_97_5": 0.2549
+  },
+  "family_breakdown": {
+    "bursty_arrivals": {
+      "ml_avg_cost": 0.2318,
+      "rr5_avg_cost": 0.5056,
+      "fcfs_avg_cost": 0.4257,
+      "best_fixed_avg_cost": 0.2318,
+      "oracle_avg_cost": 0.2217,
+      "sample_count": 15
+    },
+    "cpu_bound": {
+      "ml_avg_cost": 0.2716,
+      "rr5_avg_cost": 0.5477,
+      "fcfs_avg_cost": 0.3734,
+      "best_fixed_avg_cost": 0.2716,
+      "oracle_avg_cost": 0.2704,
+      "sample_count": 15
+    },
+    "interactive": {
+      "ml_avg_cost": 0.1437,
+      "rr5_avg_cost": 0.4329,
+      "fcfs_avg_cost": 0.4329,
+      "best_fixed_avg_cost": 0.1437,
+      "oracle_avg_cost": 0.1437,
+      "sample_count": 15
+    },
+    "io_bound": {
+      "ml_avg_cost": 0.2093,
+      "rr5_avg_cost": 0.4193,
+      "fcfs_avg_cost": 0.4193,
+      "best_fixed_avg_cost": 0.2093,
+      "oracle_avg_cost": 0.1961,
+      "sample_count": 15
+    },
+    "mixed": {
+      "ml_avg_cost": 0.1877,
+      "rr5_avg_cost": 0.2685,
+      "fcfs_avg_cost": 0.7447,
+      "best_fixed_avg_cost": 0.1868,
+      "oracle_avg_cost": 0.1722,
+      "sample_count": 15
+    }
+  }
+}

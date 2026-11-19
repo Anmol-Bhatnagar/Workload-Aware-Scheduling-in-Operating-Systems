@@ -1,0 +1,30 @@
+{
+  "primary_weights": {
+    "response_cost": 0.3,
+    "waiting_cost": 0.25,
+    "turnaround_cost": 0.2,
+    "context_switch_cost": 0.15,
+    "utilisation_cost": 0.1
+  },
+  "primary_results": {
+    "ML_Recommender": 0.2088,
+    "Always_FCFS": 0.4792,
+    "Always_RR_Q5": 0.4348,
+    "Best_Fixed_SJF": 0.2086,
+    "Per_Scenario_Oracle": 0.2008
+  },
+  "alternative_weights": {
+    "response_cost": 0.4,
+    "waiting_cost": 0.2,
+    "turnaround_cost": 0.2,
+    "context_switch_cost": 0.1,
+    "utilisation_cost": 0.1
+  },
+  "alternative_results": {
+    "ML_Recommender": 0.2469,
+    "Always_FCFS": 0.49,
+    "Always_RR_Q5": 0.3994,
+    "Best_Fixed_SJF": 0.2515,
+    "Per_Scenario_Oracle": 0.2301
+  }
+}

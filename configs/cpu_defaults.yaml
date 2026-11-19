@@ -1,0 +1,28 @@
+# Default configuration for CPU Simulator
+simulator:
+  context_switch_cost: 0
+  time_slice_unit: 1
+  deterministic_tie_breaker: ["timestamp", "pid"]
+
+defaults:
+  process_count: 10
+  seed: 42
+  workload_family: "mixed"
+
+policies:
+  - name: "FCFS"
+    type: "fcfs"
+  - name: "SJF"
+    type: "sjf"
+  - name: "RR_Q2"
+    type: "rr"
+    quantum: 2
+  - name: "RR_Q5"
+    type: "rr"
+    quantum: 5
+  - name: "RR_Q10"
+    type: "rr"
+    quantum: 10
+  - name: "PRIORITY"
+    type: "priority"
+    lower_is_higher: true

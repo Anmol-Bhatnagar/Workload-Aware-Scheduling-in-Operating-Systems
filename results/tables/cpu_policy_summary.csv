@@ -1,0 +1,7 @@
+policy,avg_response_time,avg_waiting_time,avg_turnaround_time,context_switches,cpu_utilisation_pct
+FCFS,41.32,99.41,139.41,27.91,94.16
+PRIORITY,62.41,86.46,126.46,27.42,90.83
+RR_Q10,19.3,111.25,151.25,39.45,95.5
+RR_Q2,5.74,109.88,149.89,111.03,95.57
+RR_Q5,11.54,110.34,150.34,55.61,95.99
+SJF,44.89,75.36,115.36,27.63,95.14

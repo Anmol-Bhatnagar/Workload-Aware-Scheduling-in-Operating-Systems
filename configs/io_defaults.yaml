@@ -1,0 +1,40 @@
+# Linux Storage I/O Benchmark Configuration
+
+safety:
+  enforce_file_backed: true
+  scratch_directory: "data/scratch"
+  target_file: "data/scratch/fio_test.dat"
+  prohibit_raw_devices: true
+  require_explicit_confirmation: true
+
+benchmark:
+  file_size_mib: 512
+  runtime_seconds: 10
+  rampup_seconds: 2
+  repetitions: 3
+  direct_io: 1
+  io_engine: "libaio"
+  fallback_engine: "sync"
+
+workloads:
+  - id: "seq_read"
+    name: "Sequential Read"
+    rw: "read"
+    bs: "128k"
+    iodepth: 16
+  - id: "rand_read"
+    name: "Random Read"
+    rw: "randread"
+    bs: "4k"
+    iodepth: 32
+  - id: "rand_write"
+    name: "Random Write"
+    rw: "randwrite"
+    bs: "4k"
+    iodepth: 32
+  - id: "mixed_randrw"
+    name: "Mixed Random Read/Write (70/30)"
+    rw: "randrw"
+    rwmixread: 70
+    bs: "4k"
+    iodepth: 32

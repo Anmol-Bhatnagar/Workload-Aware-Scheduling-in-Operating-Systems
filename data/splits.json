@@ -1,0 +1,35 @@
+{
+  "train": [
+    "scen_8",
+    "scen_4",
+    "scen_11",
+    "scen_5",
+    "scen_10",
+    "scen_13",
+    "scen_2",
+    "scen_15",
+    "scen_12",
+    "scen_7",
+    "scen_9",
+    "scen_14"
+  ],
+  "validation": [
+    "scen_18",
+    "scen_19",
+    "scen_16",
+    "scen_1"
+  ],
+  "test": [
+    "scen_0",
+    "scen_17",
+    "scen_6",
+    "scen_3"
+  ],
+  "random_state": 42,
+  "counts": {
+    "train": 12,
+    "validation": 4,
+    "test": 4,
+    "total": 20
+  }
+}

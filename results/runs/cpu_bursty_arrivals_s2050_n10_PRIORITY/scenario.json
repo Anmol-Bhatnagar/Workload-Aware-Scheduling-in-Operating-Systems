@@ -1,0 +1,232 @@
+{
+  "scenario_id": "bursty_arrivals_s2050_n10",
+  "workload_family": "bursty_arrivals",
+  "process_count": 10,
+  "seed": 2050,
+  "processes": [
+    {
+      "pid": "P1",
+      "arrival_time": 0,
+      "priority": 3,
+      "cpu_bursts": [
+        9,
+        15,
+        11
+      ],
+      "io_bursts": [
+        6,
+        7
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P2",
+      "arrival_time": 21,
+      "priority": 4,
+      "cpu_bursts": [
+        15,
+        5,
+        10
+      ],
+      "io_bursts": [
+        5,
+        2
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P3",
+      "arrival_time": 22,
+      "priority": 3,
+      "cpu_bursts": [
+        11
+      ],
+      "io_bursts": [],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P4",
+      "arrival_time": 23,
+      "priority": 5,
+      "cpu_bursts": [
+        16,
+        11,
+        10,
+        13
+      ],
+      "io_bursts": [
+        8,
+        8,
+        5
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P5",
+      "arrival_time": 35,
+      "priority": 4,
+      "cpu_bursts": [
+        16,
+        15,
+        16,
+        19
+      ],
+      "io_bursts": [
+        8,
+        8,
+        4
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P6",
+      "arrival_time": 56,
+      "priority": 5,
+      "cpu_bursts": [
+        13,
+        14
+      ],
+      "io_bursts": [
+        10
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P7",
+      "arrival_time": 56,
+      "priority": 1,
+      "cpu_bursts": [
+        8
+      ],
+      "io_bursts": [],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P8",
+      "arrival_time": 56,
+      "priority": 3,
+      "cpu_bursts": [
+        16,
+        19,
+        8,
+        7
+      ],
+      "io_bursts": [
+        2,
+        1,
+        1
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P9",
+      "arrival_time": 56,
+      "priority": 1,
+      "cpu_bursts": [
+        8,
+        5,
+        4,
+        20
+      ],
+      "io_bursts": [
+        9,
+        9,
+        5
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    },
+    {
+      "pid": "P10",
+      "arrival_time": 57,
+      "priority": 3,
+      "cpu_bursts": [
+        13,
+        3
+      ],
+      "io_bursts": [
+        1
+      ],
+      "state": "NEW",
+      "first_start_time": null,
+      "completion_time": null,
+      "total_cpu_time": 0,
+      "total_ready_wait": 0,
+      "total_blocked_time": 0,
+      "dispatch_count": 0,
+      "turnaround_time": null,
+      "response_time": null
+    }
+  ]
+}

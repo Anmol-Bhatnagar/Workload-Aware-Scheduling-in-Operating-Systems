@@ -1,0 +1,19 @@
+; ===========================================================
+; FIO Job Configuration - Workload: Random Write 4k
+; Target: Safe disposable file (NOT a raw block device)
+; ===========================================================
+[global]
+filename=C:\Users\anmol\Desktop\Projects\OS Researcg\data\scratch\fio_test.dat
+size=512M
+time_based=1
+runtime=10
+ramp_time=2
+direct=1
+ioengine=sync
+group_reporting=1
+buffered=0
+
+[rand_write]
+rw=randwrite
+bs=4k
+iodepth=32

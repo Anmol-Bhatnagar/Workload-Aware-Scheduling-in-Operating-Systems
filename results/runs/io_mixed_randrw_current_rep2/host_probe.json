@@ -1,0 +1,37 @@
+{
+  "timestamp": "Bhatnagar",
+  "os": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "AMD64",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "cpu": {
+    "model": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "physical_cores": 8,
+    "logical_cores": 16
+  },
+  "memory": {
+    "total_gib": 19.86,
+    "available_gib": 4.64
+  },
+  "storage": {
+    "target_scratch_dir": "C:\\Users\\anmol\\Desktop\\Projects\\OS Researcg\\data\\scratch",
+    "target_disk_usage": {
+      "total_gib": 474.72,
+      "free_gib": 17.79,
+      "used_pct": 96.3
+    },
+    "block_devices": []
+  },
+  "tools": {
+    "fio_version": null,
+    "fio_installed": false
+  },
+  "virtualization": {
+    "is_wsl": false,
+    "is_container": false,
+    "environment_type": "Microsoft Windows Host"
+  }
+}
